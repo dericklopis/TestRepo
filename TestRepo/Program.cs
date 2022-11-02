@@ -11,6 +11,8 @@ namespace TestRepo
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome");
+            calculator.AddTwoNumbers(1, 2);
+            calculator.AddTwoNumbers2();
             Console.ReadLine();
         }
     }
