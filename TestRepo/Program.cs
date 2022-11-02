@@ -12,7 +12,9 @@ namespace TestRepo
         {
             Console.WriteLine("Welcome");
             calculator.AddTwoNumbers(1, 2);
-            calculator.AddTwoNumbers2();
+            calculator.AddTwoNumbers2();            
+            Human human1 = new Human();
+            human1.Talk();
             Console.ReadLine();
         }
     }
